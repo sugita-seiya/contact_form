@@ -1,10 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
-use App\Http\Controllers\ContactSendmail;
-use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactSendmail;
 
 
 class ContactController extends Controller
